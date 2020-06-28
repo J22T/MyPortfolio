@@ -1,0 +1,25 @@
+#welcome-section {
+    height: 100vh;
+    overflow: auto;
+    background-color: royalblue;
+}
+
+
+@media screen {
+    body {
+      width: 75%;
+    }
+  }
+  
+  @media print {
+    body {
+      width: 100%;
+    }
+  }
+
+  #navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    justify-content: flex-end;
+}​
