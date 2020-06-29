@@ -63,10 +63,10 @@ height: auto;
 
 a {
 text-decoration: none;
-color: #0499ff;
+color: #00ad17;
 }
 a:hover {
-color: #6633ff;
+color: #ff33ee;
 }
 
 @media screen {
@@ -142,7 +142,7 @@ margin-top: 50px;
 width: 150px;
 height: 150px;
 border-radius: 50%;
-border: 3px solid white;
+border: 3px solid rgb(255, 255, 255);
 transition: all .5s;
 }
 
@@ -161,7 +161,7 @@ margin: 10px auto;
 
 .location {
 background-color: #222;
-color: yellow;
+color: rgb(0, 255, 0);
 }
 
 .card {
