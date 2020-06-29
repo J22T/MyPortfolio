@@ -63,10 +63,10 @@ height: auto;
 
 a {
 text-decoration: none;
-color: #00ad17;
+color: #0499ff;
 }
 a:hover {
-color: #ff33ee;
+color: #6633ff;
 }
 
 @media screen {
@@ -142,7 +142,7 @@ margin-top: 50px;
 width: 150px;
 height: 150px;
 border-radius: 50%;
-border: 3px solid rgb(255, 255, 255);
+border: 3px solid white;
 transition: all .5s;
 }
 
