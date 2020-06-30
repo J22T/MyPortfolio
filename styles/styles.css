@@ -54,6 +54,16 @@ background-color: #5a3ea9;
 font-size: 30px;
 }
 
+#about {
+    height: 50vh;
+    overflow: auto;
+    background-color: #d13b34;
+    font-size: 30px;
+}
+
+
+
+
 body {
 margin: 0;
 padding: 0;
