@@ -267,9 +267,6 @@ clear: both;
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
-
-
-
 .flex {
 display: flex;
 max-width: 1200px;
@@ -277,21 +274,9 @@ justify-content: space-around;
 margin: 0 auto;
 }
 
-
-
-
 header {
 min-height: 450px;
 }
-
-
-
-
-
-
-
-
-
 
 main {
 padding-top: 50px;
@@ -300,12 +285,6 @@ padding-top: 50px;
 main p {
 line-height: 1.6em;
 }
-
-
-
-
-
-
 
 footer {
 font-size: 1.3em;
