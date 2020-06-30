@@ -4,7 +4,7 @@
 
 .main-nav {
     width: 100%;
-    background: rgb(0, 0, 0);
+    background: #252525;
     min-height: 30px;
     padding: 5px;
     position: fixed;
@@ -22,10 +22,35 @@
         color: white;
         }
 
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            font-weight: 00;
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 1;
+            }
+            
+            .nav .name {
+            display: none;
+            }
+            
+            .nav li {
+            padding: 5px 10px 10px 10px;
+            }
+            
+            .nav a {
+            transition: all .5s;
+            }
+            
+            .nav a:hover {
+            color: #15ff84
+            }
+
 #welcome-section {
 height: 100vh;
 overflow: auto;
-background-color: rgb(81, 0, 187);
+background-color: #231677;
 font-size: 30px;
 }
 
@@ -40,30 +65,7 @@ background: #252525;
 
 
 
-.nav {
-display: flex;
-justify-content: space-around;
-font-weight: 00;
-list-style-type: none;
-margin: 0 auto;
-padding: 1;
-}
 
-.nav .name {
-display: none;
-}
-
-.nav li {
-padding: 5px 10px 10px 10px;
-}
-
-.nav a {
-transition: all .5s;
-}
-
-.nav a:hover {
-color: white
-}
 
 img {
 max-width: 10%;
@@ -80,7 +82,7 @@ text-decoration: none;
 color: #b8e3ff;
 }
 a:hover {
-color: #ffffff;
+color: #15ff84;
 }
 
 @media screen {
