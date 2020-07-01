@@ -54,6 +54,16 @@ background-color: #5a3ea9;
 font-size: 30px;
 }
 
+.hero-image {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 #about {
     height: 50vh;
     overflow: auto;
@@ -100,13 +110,6 @@ font-family: 'Roboto', sans-serif;
 color: rgb(255, 255, 255);
 background: #252525;
 }
-
-body #jc4 {
-
-    background-size: auto;
-}
-
-
 
 
 
