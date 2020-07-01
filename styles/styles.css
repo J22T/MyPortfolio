@@ -68,6 +68,20 @@ font-size: 30px;
     font-size: 30px;
 }
 
+#updates {
+    height: 50vh;
+    overflow: auto;
+    background-color: #c99300;
+    font-size: 30px;
+}
+
+#random {
+    height: 50vh;
+    overflow: auto;
+    background-color: #00b193;
+    font-size: 30px;
+}
+
 #contact {
     height: 50vh;
     overflow: auto;
