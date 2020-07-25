@@ -88,14 +88,14 @@ font-size: 30px;
 #random {
     height: 50vh;
     overflow: auto;
-    background-color: #00b193;
+    background-color: #720000;
     font-size: 30px;
 }
 
 #contact {
     height: 50vh;
     overflow: auto;
-    background-color: #be0095;
+    background-color: #424242;
     font-size: 30px;
 }
 
@@ -251,7 +251,7 @@ font-size: .75em;
 
 
 
-/* Styles for larger screens */
+
 @media screen and (min-width: 720px) {
 
 .flex {
