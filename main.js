@@ -1,6 +1,10 @@
 import { starships } from  './starships.js'
 console.log(starships)
 
+starships.map(starships => {
+    console.log(starships.episode_id)
+})
+
 function createNode(element) {
 
     return document.createElement(element);
@@ -19,5 +23,12 @@ fetch(swurl)
     .then(data => {
         titles = data.results;
 
+        titles.map()
+
         console.log(titles)
+        let li = createNode('li'),
+            img = createNode('img'),
+            span = craeteNode('span');
+
+            img.src = titles (0).picture.medium
     })
