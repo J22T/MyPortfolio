@@ -11,10 +11,13 @@ function append(parent, el) {
 }
 
 const url = 
-const titles;
+
+let titles;
 
 fetch(swurl)
     .then(resp => resp.json())
     .then(data => {
-        titles.results
+        titles = data.results;
+
+        console.log(titles)
     })
