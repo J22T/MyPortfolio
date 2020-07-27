@@ -1,5 +1,4 @@
-import {starships} from './starships.js';
-import {planets} from './planets.js';
+import {createAuthor,createNode,append,} from './functions.js';
 
 films.map()
 
@@ -26,4 +25,8 @@ fetch(url)
     genderToggleBtn.addEventListener('click',() => {
         isStarship = !isStarship;
         ul.innerHTML = '';
+    }
+
+    authors.filters(author => {
+        return isStarship ? author.gender == 'male' : author.starship == ''
     }

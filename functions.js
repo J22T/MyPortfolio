@@ -18,3 +18,10 @@ function createNode(element) {
 function append(parent, el) {
     return parent.appendChild(el);
 }
+
+export{
+    createAuthor,
+    createNode,
+    append,
+
+}
