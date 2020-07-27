@@ -22,11 +22,11 @@ fetch(url)
         })
     })
 
-    genderToggleBtn.addEventListener('click',() => {
+    starshipToggleBtn.addEventListener('click',() => {
         isStarship = !isStarship;
         ul.innerHTML = '';
     }
 
-    authors.filters(author => {
+    starship.filters(author => {
         return isStarship ? author.gender == 'male' : author.starship == ''
     }
