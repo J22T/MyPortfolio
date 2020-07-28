@@ -31,6 +31,29 @@ planets.map(function planetsFunc(planet){
 
 
 
+console.log(starships);
+
+const planetsDiv = document.querySelector('#starships');
+
+starships.map(function starshipsFunc(starship){
+
+const div = document.createElement('div');
+const p = document.createElement('p');
+
+div.className = 'starship'
+
+p.innerHTML = starship.name;
+
+div.appendChild(p);
+
+starshipDiv.appendChild(div);
+
+
+
+
+
+}
+
 
 
 // .map()
