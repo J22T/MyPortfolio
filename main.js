@@ -29,11 +29,9 @@ planets.map(function planetsFunc(planet){
     planetsDiv.appendChild(div);
 })
 
-
-
 console.log(starships);
 
-const planetsDiv = document.querySelector('#starships');
+const starshipsDiv = document.querySelector('#starships');
 
 starships.map(function starshipsFunc(starship){
 
@@ -46,13 +44,8 @@ p.innerHTML = starship.name;
 
 div.appendChild(p);
 
-starshipDiv.appendChild(div);
-
-
-
-
-
-}
+starshipsDiv.appendChild(div);
+})
 
 
 
