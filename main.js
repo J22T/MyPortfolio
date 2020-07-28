@@ -29,6 +29,25 @@ planets.map(function planetsFunc(planet){
     planetsDiv.appendChild(div);
 })
 
+//get a pointer to the div with an id of planets in the HTML file
+const planetsDiv = document.querySelector('#planets');
+
+
+planets.map(function planetsFunc(planet){
+
+  
+    const div = document.createElement('div');
+    const p = document.createElement('p');
+ 
+    div.className = 'planet' 
+
+    p.innerHTML = planet.name;
+
+    div.appendChild(p);
+
+    planetsDiv.appendChild(div);
+})
+
 
 
 
