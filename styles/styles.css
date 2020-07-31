@@ -102,12 +102,7 @@ align-items: center;
     font-size: 30px;
 }
 
-.contact {
-    height: 50vh;
-    overflow: auto;
-    background-color: #008f13;
-    font-size: 30px;
-}
+
 
 
 
@@ -252,6 +247,13 @@ footer .copyright {
 top: -8px;
 margin-right: 20px;
 font-size: .75em;
+}
+
+.contact {
+    height: 50vh;
+    overflow: auto;
+    background-color: #008f13;
+    font-size: 30px;
 }
 
 
