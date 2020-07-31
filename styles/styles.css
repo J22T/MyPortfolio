@@ -67,28 +67,28 @@ font-size: 30px;
 #about {
     height: 50vh;
     overflow: auto;
-    background-color: #3492d1;
+    background-color: #00c3ff;
     font-size: 30px;
 }
 
 #projects {
     height: 50vh;
     overflow: auto;
-    background-color: #2c2c2c;
+    background-color: #db000071;
     font-size: 30px;
 }
 
 #updates {
     height: 50vh;
     overflow: auto;
-    background-color: #c99300;
+    background-color: #a30065;
     font-size: 30px;
 }
 
 #contact {
     height: 50vh;
     overflow: auto;
-    background-color: #424242;
+    background-color: #008f13;
     font-size: 30px;
 }
 
