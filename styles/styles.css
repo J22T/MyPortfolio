@@ -2,6 +2,8 @@
     box-sizing border-box;
 }
 
+/* Class Selectors */
+
 .main-nav {
 width: 100%;
 background: #252525;
@@ -57,13 +59,19 @@ position: relative;
 }
 
 .flex-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: space-between;
-    align-items: center;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-content: space-between;
+align-items: center;
 }
 
+/* Class Selectors */
+
+
+
+
+/* Hash Selectors */
 
 
 #welcome-section {
@@ -100,6 +108,8 @@ position: relative;
     background-color: #008f13;
     font-size: 30px;
 }
+
+/* Hash Selectors */
 
 
 
@@ -221,13 +231,13 @@ color: rgb(0, 255, 0);
 }
 
 .card {
-    margin: 30px;
-    padding: 20px 40px 40px;
-    max-width: 500px;
-    text-align: left;
-    background: white;
-    border-bottom: 10px solid white;
-    border-radius: 6px;
+margin: 30px;
+padding: 20px 40px 40px;
+max-width: 500px;
+text-align: left;
+background: white;
+border-bottom: 10px solid white;
+border-radius: 6px;
 }
 
 .card:hover {
