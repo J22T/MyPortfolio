@@ -219,13 +219,13 @@ color: rgb(0, 255, 0);
 }
 
 .card {
-margin: 30px;
-padding: 20px 40px 40px;
-max-width: 500px;
-text-align: left;
-background: white;
-border-bottom: 4px solid white;
-border-radius: 6px;
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: white;
+    border-bottom: 10px solid white;
+    border-radius: 6px;
 }
 
 .card:hover {
