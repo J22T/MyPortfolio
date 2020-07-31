@@ -102,6 +102,13 @@ align-items: center;
     font-size: 30px;
 }
 
+.contact {
+    height: 50vh;
+    overflow: auto;
+    background-color: #008f13;
+    font-size: 30px;
+}
+
 
 
 
