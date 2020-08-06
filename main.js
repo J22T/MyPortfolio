@@ -58,6 +58,12 @@ const getPeople = () => {
 
 const mystarshipArray = starship. map(redefinePerson)
 
+<div class="scene">
+<div class="card">
+<div class="card__face card__face--front">$(starship.name)</div>>
+<div class="scene">
+
+
 
 
 
