@@ -33,6 +33,32 @@ planets.map(function planetsFunc(planet){
 
 
 
+const container = document.querySelector('#container');
+
+const getPeople = () => {
+
+    fetch('https://www.cnet.com/pictures/star-wars-spaceships-ranked-by-power-speed/')
+
+    .then(resp => resp.json())
+
+    .then(data => {
+
+        const starship = data.results;
+
+        const redefinePerson = (starship, idx) => {
+            return {
+                name: starship.name,
+                year: starship.model_year,
+                type: starship.type,
+                color:starship.color,
+                id: idx + 1
+            }
+        }
+
+
+
+
+
 
 
 
