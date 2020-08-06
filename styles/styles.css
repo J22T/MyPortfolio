@@ -2,8 +2,6 @@
     box-sizing border-box;
 }
 
-
-
 .main-nav {
 width: 100%;
 background: #252525;
@@ -66,7 +64,6 @@ align-content: space-between;
 align-items: center;
 }
 
-
 #welcome-section {
     height: 100vh;
     overflow: auto;
@@ -102,13 +99,6 @@ align-items: center;
     font-size: 30px;
 }
 
-
-
-
-
-
-
-
 body {
 margin: 0;
 padding: 0;
@@ -118,17 +108,10 @@ color: rgb(255, 255, 255);
 background: #252525;
 }
 
-
-
 img {
 max-width: 10%;
 height: auto;
 }
-
-
-
-
-
 
 a {
 text-decoration: none;
@@ -156,7 +139,6 @@ top: 0px;
 width: 100%;
 justify-content: flex-end;
 }​
-
 
 .nav {
 display: flex;
@@ -255,20 +237,6 @@ overflow: auto;
 background-color: #008f13;
 font-size: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 720px) {
 
