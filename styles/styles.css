@@ -11,17 +11,14 @@ position: fixed;
 text-align: center;
 font-size: 20px;
 }
-
 .nav {
 max-width: 1200px;
 }
-
 .nav .name {
 display: block;
 margin-right: auto;
 color: white;
 }
-
 .nav {
 display: flex;
 justify-content: space-around;
@@ -30,22 +27,23 @@ list-style-type: none;
 margin: 0 auto;
 padding: 1;
 }
-
 .nav .name {
 display: none;
 }
-
 .nav li {
 padding: 5px 10px 10px 10px;
 }
-
 .nav a {
 transition: all .5s;
 }
-
 .nav a:hover {
 color: #15ff84
 }
+
+
+
+
+
 
 .hero-image {
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img\just-cause-4-uhd-4k-wallpaper.jpg");
@@ -63,6 +61,11 @@ flex-wrap: wrap-reverse;
 align-content: space-between;
 align-items: center;
 }
+
+
+
+
+
 
 #welcome-section {
     height: 100vh;
@@ -99,6 +102,10 @@ align-items: center;
     font-size: 30px;
 }
 
+
+
+
+
 body {
 margin: 0;
 padding: 0;
@@ -107,11 +114,15 @@ font-family: 'Roboto', sans-serif;
 color: rgb(255, 255, 255);
 background: #252525;
 }
-
 img {
 max-width: 10%;
 height: auto;
 }
+
+
+
+
+
 
 a {
 text-decoration: none;
@@ -120,6 +131,11 @@ color: #b8e3ff;
 a:hover {
 color: #15ff84;
 }
+
+
+
+
+
 
 @media screen {
 body {
@@ -133,13 +149,17 @@ width: 100%;
 }
 }
 
+
+
+
+
+
 #navbar {
 position: fixed;
 top: 0px;
 width: 100%;
 justify-content: flex-end;
 }​
-
 .nav {
 display: flex;
 justify-content: flex-end;
@@ -149,11 +169,15 @@ left: 0;
 width: 100%;
 box-shadow: 0 2px 0 rgba(60, 211, 0, 0.4);
 }
-
 .nav-list {
 display: flex;
 margin-right: 2rem;
 margin: 0 1rem;
+
+
+
+
+
 
 @media (max-width: 28.75em) {
 .nav {
@@ -173,11 +197,9 @@ background-size: cover;
 overflow: hidden;
 padding-top: 60px;
 }
-
 header {
 line-height: 1.5;
 }
-
 header .profile-image {
 margin-top: 50px;
 width: 150px;
@@ -186,10 +208,11 @@ border-radius: 50%;
 border: 3px solid white;
 transition: all .5s;
 }
-
 header .profile-image:hover {
 transform: scale(1.2) rotate(5deg);
 }
+
+
 
 .tag {
 background-color: #efefef;
@@ -214,7 +237,6 @@ background: white;
 border-bottom: 10px solid white;
 border-radius: 6px;
 }
-
 .card:hover {
 border-color: #00b90f;
 }
@@ -224,7 +246,6 @@ width: 100%;
 min-height: 30px;
 padding: 20px 0 40px 20px;
 }
-
 footer .copyright {
 top: -8px;
 margin-right: 20px;
@@ -237,6 +258,7 @@ overflow: auto;
 background-color: #008f13;
 font-size: 30px;
 }
+
 
 @media screen and (min-width: 720px) {
 
