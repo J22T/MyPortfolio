@@ -56,7 +56,7 @@ const getPeople = () => {
         }
 
 
-
+const mystarshipArray = starship. map(redefinePerson)
 
 
 
