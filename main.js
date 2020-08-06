@@ -29,6 +29,15 @@ planets.map(function planetsFunc(planet){
     planetsDiv.appendChild(div);
 })
 
+
+
+
+
+
+
+
+
+
 console.log(starships);
 
 const starshipsDiv = document.querySelector('#starships');
