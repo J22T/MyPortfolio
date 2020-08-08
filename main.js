@@ -37,7 +37,7 @@ const container = document.querySelector('#container');
 
 const getstarship = () => {
 
-    fetch('https://www.cnet.com/pictures/star-wars-spaceships-ranked-by-power-speed/')
+    fetch('https://swapi.dev/api/starships/9/')
 
     .then(resp => resp.json())
 
