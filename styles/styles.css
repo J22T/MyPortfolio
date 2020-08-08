@@ -54,30 +54,6 @@ box-sizing border-box;
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main-nav {
 width: 100%;
 background: #252525;
@@ -150,13 +126,6 @@ display: table-cell;
 margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
 .hero-image {
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img\just-cause-4-uhd-4k-wallpaper.jpg");
 height: 50%;
@@ -173,11 +142,6 @@ flex-wrap: wrap-reverse;
 align-content: space-between;
 align-items: center;
 }
-
-
-
-
-
 
 #welcome-section {
 height: 100vh;
@@ -214,10 +178,6 @@ background-color: #0068bd;
 font-size: 30px;
 }
 
-
-
-
-
 body {
 margin: 0;
 padding: 0;
@@ -231,11 +191,6 @@ max-width: 10%;
 height: auto;
 }
 
-
-
-
-
-
 a {
 text-decoration: none;
 color: #b8e3ff;
@@ -243,11 +198,6 @@ color: #b8e3ff;
 a:hover {
 color: #15ff84;
 }
-
-
-
-
-
 
 @media screen {
 body {
@@ -260,11 +210,6 @@ body {
 width: 100%;
 }
 }
-
-
-
-
-
 
 #navbar {
 position: fixed;
@@ -285,11 +230,6 @@ box-shadow: 0 2px 0 rgba(60, 211, 0, 0.4);
 display: flex;
 margin-right: 2rem;
 margin: 0 1rem;
-
-
-
-
-
 
 @media (max-width: 28.75em) {
 .nav {
@@ -323,8 +263,6 @@ transition: all .5s;
 header .profile-image:hover {
 transform: scale(1.2) rotate(5deg);
 }
-
-
 
 .tag {
 background-color: #efefef;
