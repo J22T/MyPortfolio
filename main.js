@@ -45,7 +45,7 @@ const getstarship = () => {
 
         const starship = data.results;
 
-        const redefinePerson = (starship, idx) => {
+        const redefineStarship = (starship, idx) => {
             return {
                 name: starship.name,
                 year: starship.model_year,
@@ -56,7 +56,7 @@ const getstarship = () => {
         }
 
 
-const mystarshipArray = starship. map(redefinePerson)
+const mystarshipArray = starship. map(redefineStarship)
 
 <div class="scene">
 <div class="card">
