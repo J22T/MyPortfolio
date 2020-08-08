@@ -118,3 +118,15 @@ starshipsDiv.appendChild(div);
 //     starship.filters(author => {
 //         return isStarship ? author.gender == 'male' : author.starship == ''
 //     }
+
+getstarship();
+
+const charform = document.querySelector('#charform');
+
+charForm.addEventListener('submit'), (event) => {
+    event.preventDefault();
+
+   let formData = new FormData(charForm
+    
+    console.log(formData))
+})
