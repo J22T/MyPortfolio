@@ -119,6 +119,21 @@ starshipsDiv.appendChild(div);
 //         return isStarship ? author.gender == 'male' : author.starship == ''
 //     }
 
+container.innerHTML = starshipHTML;
+
+const cards = document.querySelectorAll('.card');
+
+
+cards.forEach(card => {
+    card.addEventListener( 'click', function() {
+        card.classList.toggle('is-flipped');
+    });
+})
+})
+
+}
+
+
 getstarship();
 
 const charform = document.querySelector('#charform');
@@ -126,7 +141,14 @@ const charform = document.querySelector('#charform');
 charForm.addEventListener('submit'), (event) => {
     event.preventDefault();
 
-   let formData = new FormData(charForm
-    
-    console.log(formData))
+   let formData = new FormData(charForm);
+
+   let charObj = new Object();
+
+   for(let pair of formData.entries()) {
+    console.log(pair)
+   
+    charObj[pair[0]] = pair [1]
+   }
+
 })
