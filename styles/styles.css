@@ -120,21 +120,21 @@ align-items: center;
 #projects {
     height: 50vh;
     overflow: auto;
-    background-color: #db000071;
+    background-color: #72727271;
     font-size: 30px;
 }
 
 #updates {
     height: 50vh;
     overflow: auto;
-    background-color: #a30065;
+    background-color: #009231;
     font-size: 30px;
 }
 
 #contact {
     height: 50vh;
     overflow: auto;
-    background-color: #008f13;
+    background-color: #0068bd;
     font-size: 30px;
 }
 
