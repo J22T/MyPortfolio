@@ -7,10 +7,13 @@ function append(parent, el) {
 }
 
 const url = 'https://swapi.dev/api/starships/9/';
-const swurl = 'https://swapi.dev/api/starships/9/'
+
+let starships;
 
 fetch(url)
     .then(resp => resp.json())
     .then(data => {
-        console.log(data)
+        starships = data.results;
+
+        console.log(authors)
     })
