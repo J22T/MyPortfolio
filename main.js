@@ -16,4 +16,10 @@ fetch(url)
         starships = data.results;
 
         console.log(authors)
+
+        let li = createNode('li')
+            img = createNode('img'),
+            span = createNode('span');
+
+            img.src = spaceships[0]
     })
