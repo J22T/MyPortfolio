@@ -7,8 +7,9 @@ function append(parent, el) {
 }
 
 const url = 'https://swapi.dev/api/starships/9/';
+const ul = document.getElementById('spaceshipsandplanets')
 
-let starships;
+let spaceshipsandplanets;
 
 fetch(url)
     .then(resp => resp.json())
@@ -21,5 +22,11 @@ fetch(url)
             img = createNode('img'),
             span = createNode('span');
 
-            img.src = spaceships[0]
-    })
+            img.src = spaceship.picture.medium;
+            span.innerHTML = `spaceship Name: ${author.name.first} ${author.name.last}` ;
+            span.innerHTML = `spaceship name` + author.name.first + '' + author.name.last
+    
+            append(li, img);
+            append(li, span);
+            append(ul, li);
+        })
