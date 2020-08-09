@@ -23,10 +23,14 @@ fetch(url)
             span = createNode('span');
 
             img.src = spaceship.picture.medium;
-            span.innerHTML = `spaceship Name: ${author.name.first} ${author.name.last}` ;
-            span.innerHTML = `spaceship name` + author.name.first + '' + author.name.last
+            span.innerHTML = `${spaceship.name.first} ${spaceship.name.last}` ;
+            
     
             append(li, img);
             append(li, span);
             append(ul, li);
         })
+
+
+
+    })
