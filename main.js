@@ -1,3 +1,8 @@
+import {films, starships} from './starships.js'
+import {films} from './planets.js'
+
+starships.map()
+
 function createSpaceship(spaceship){
 let li = createNode('li')
 img = createNode('img'),
