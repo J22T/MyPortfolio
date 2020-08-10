@@ -38,13 +38,12 @@ fetch(url)
 
     spaceshipsToggleBtn.addEventListener('click', () => {
         isgravity = !isGravity:
-
+        ul.innerHTML = '';
 
         spaceshipsandplanets.filter(spaceshipsandplanets => {
             return isGravity ? spaceshipsandplanets.gravity == 'gravity' : spaceships.planets == 'gravity'
     })
     .map(spaceship => {
-        ul.innerHTML = '';
 
         let li = createNode('li')
         img = createNode('img'),
