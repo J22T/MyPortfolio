@@ -40,8 +40,10 @@ fetch(url)
         isgravity = !isGravity:
 
     spaceshipsandplanetsToggleBtn.addEventlistener('click', () => {
+
+
         spaceshipsandplanets.filter(spaceshipsandplanets => {
-            return spaceshipsandplanets.planets == isGravity ? spaceshipsandplanets.gravity =='gravity' spaceships.planets =='gravity'
+            return isGravity ? spaceshipsandplanets.gravity == 'gravity' : spaceships.planets == 'gravity'
     })
     .map(spaceshipsandplanets => {
         console.log(spaceshipsandplanets.gravity)
