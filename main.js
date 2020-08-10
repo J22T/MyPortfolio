@@ -1,3 +1,17 @@
+function createSpaceship(spaceship){
+let li = createNode('li')
+img = createNode('img'),
+span = createNode('span');
+
+img.src = spaceship.picture.medium;
+span.innerHTML = `${spaceship.name.first} ${spaceship.name.last}` ;
+
+
+append(li, img);
+append(li, span);
+append(ul, li);
+}
+
 function createNode(element) {
     return document.createdElement(element);
 }
@@ -20,19 +34,15 @@ fetch(url)
         spaceshipsandplanets = data.results;
         console.log(spaceshipsandplanets)
 
+        spaceship.map(spaceship => {
+      
+            createSpaceship(spaceship)
+        })
+    })
+
     spaceshipsandplanets.map(spaceshipsandplanets => {
         console.log(spaceshipsandplanets.cell)
-        let li = createNode('li')
-            img = createNode('img'),
-            span = createNode('span');
-
-            img.src = spaceship.picture.medium;
-            span.innerHTML = `${spaceship.name.first} ${spaceship.name.last}` ;
-            
-    
-            append(li, img);
-            append(li, span);
-            append(ul, li);
+        
         })
     })
 
@@ -45,17 +55,7 @@ fetch(url)
     })
     .map(spaceship => {
 
-        let li = createNode('li')
-        img = createNode('img'),
-        span = createNode('span');
-
-        img.src = spaceship.picture.medium;
-        span.innerHTML = `${spaceship.name.first} ${spaceship.name.last}` ;
-        
-
-        append(li, img);
-        append(li, span);
-        append(ul, li);
+        createSpaceship(spaceship);
 
         })
     })
