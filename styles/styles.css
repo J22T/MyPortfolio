@@ -3,55 +3,55 @@ box-sizing border-box;
 }
 
 .flipcard.body {
-    background: rgb(199, 199, 199);
-  }
-  
-  .flipcard.card {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 300px;
-    height: 300px;
-    margin: -150px;
-    float: left;
-    perspective: 500px;
-  }
-  
-  .flipcard.content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 15px;
-    color: #00b38c;
-  
-    transition: transform 1s;
-    transform-style: preserve-3d;
-  }
-  
-  .flipcard.card:hover.content {
-    transform: rotateY( 180deg ) ;
-    transition: transform 0.5s;
-  }
-  
-  .flipcard.front,
-  .flipcard.back {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: white;
-    line-height: 300px;
-    color: #1e9400;
-    text-align: center;
-    font-size: 60px;
-    border-radius: 5px;
-    backface-visibility: hidden;
-  }
-  
-  .flipcard.back {
-    background: #929292;
-    color: rgb(224, 209, 0);
-    transform: rotateY( 720deg );
-  }
+background: rgb(199, 199, 199);
+}
+
+.flipcard.card {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 300px;
+height: 300px;
+margin: -150px;
+float: left;
+perspective: 500px;
+}
+
+.flipcard.content {
+position: absolute;
+width: 100%;
+height: 100%;
+box-shadow: 0 0 15px;
+color: #00b38c;
+
+transition: transform 1s;
+transform-style: preserve-3d;
+}
+
+.flipcard.card:hover.content {
+transform: rotateY( 180deg ) ;
+transition: transform 0.5s;
+}
+
+.flipcard.front,
+.flipcard.back {
+position: absolute;
+height: 100%;
+width: 100%;
+background: white;
+line-height: 300px;
+color: #1e9400;
+text-align: center;
+font-size: 60px;
+border-radius: 5px;
+backface-visibility: hidden;
+}
+
+.flipcard.back {
+background: #929292;
+color: rgb(224, 209, 0);
+transform: rotateY( 720deg );
+}
 
 
 .main-nav {
