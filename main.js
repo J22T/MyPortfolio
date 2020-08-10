@@ -36,16 +36,27 @@ fetch(url)
         })
     })
 
-    genderToggleBtn.addEventListener('click', () => {
+    spaceshipsToggleBtn.addEventListener('click', () => {
         isgravity = !isGravity:
-
-    spaceshipsandplanetsToggleBtn.addEventlistener('click', () => {
 
 
         spaceshipsandplanets.filter(spaceshipsandplanets => {
             return isGravity ? spaceshipsandplanets.gravity == 'gravity' : spaceships.planets == 'gravity'
     })
-    .map(spaceshipsandplanets => {
-        console.log(spaceshipsandplanets.gravity)
+    .map(spaceship => {
+        ul.innerHTML = '';
+
+        let li = createNode('li')
+        img = createNode('img'),
+        span = createNode('span');
+
+        img.src = spaceship.picture.medium;
+        span.innerHTML = `${spaceship.name.first} ${spaceship.name.last}` ;
+        
+
+        append(li, img);
+        append(li, span);
+        append(ul, li);
+
         })
     })
