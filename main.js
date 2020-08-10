@@ -9,6 +9,7 @@ function append(parent, el) {
 const url = 'https://swapi.dev/api/starships/9/';
 const ul = document.getElementById('spaceshipsandplanets')
 const genderToggleBtn = document.getElementById(toggleSpaceship)
+let isGravity = true;
 
 let spaceshipsandplanets;
 
@@ -35,9 +36,12 @@ fetch(url)
         })
     })
 
+    genderToggleBtn.addEventListener('click', () => {
+        isgravity = !isGravity:
+
     spaceshipsandplanetsToggleBtn.addEventlistener('click', () => {
         spaceshipsandplanets.filter(spaceshipsandplanets => {
-            return spaceshipsandplanets.planets == 'gravity'
+            return spaceshipsandplanets.planets == isGravity ? spaceshipsandplanets.gravity =='gravity' spaceships.planets =='gravity'
     })
     .map(spaceshipsandplanets => {
         console.log(spaceshipsandplanets.gravity)
