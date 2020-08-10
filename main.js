@@ -36,5 +36,10 @@ fetch(url)
     })
 
     spaceshipsandplanetsToggleBtn.addEventlistener('click', () => {
-        spaceshipsandplanets.filter('clicked')
+        spaceshipsandplanets.filter(spaceshipsandplanets => {
+            return spaceshipsandplanets.planets == 'starwars'
+    })
+    .map(spaceshipsandplanets => {
+        console.log(spaceshipsandplanets.planets)
+        })
     })
