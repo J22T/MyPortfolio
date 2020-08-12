@@ -1,3 +1,21 @@
+var cards = document.querySelectorAll('.card');
+
+console.log(cards)
+
+cards.forEach(card => {
+    card.addEventListener( 'click', function() {
+    card.classList.toggle("is-flipped");
+    });
+})
+
+fetch('"https://pokeapi.co/api/v2/pokemon?offset=100&limit=100"')
+.then(resp => resp.json())
+.then(poki => console.log(poki))
+
+
+
+
+
 import {films, starships} from './starships.js'
 
 
