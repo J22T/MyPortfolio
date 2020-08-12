@@ -1,4 +1,4 @@
-var cards = document.querySelectorAll('.card');
+var cards = document.querySelectorAll('.cards');
 
 cards.forEach(card => {
 card.addEventListener( 'click', function() {
@@ -18,41 +18,10 @@ const getPoki = () => {
             // This is where you run code if the server returns any errors
         });
 
-
-
-
-
-
-
-
-
-
-
-function createNode(element) {
-    return document.createElement(element);
-}
-
-function append(parent, el) {
-  return parent.appendChild(el);
-}
-
-const ul = document.getElementById('poki'); // Get the list where we will place our authors
-const url = 'https://pokeapi.co/api/v2/pokemon?offset=100&limit=100'; // Get 100 random pokemon bro
-fetch(url)
-.then((resp) => resp.json())
-.then(function(data) {
-  let poki = data.results;
-  return poki.map(function(poki) {
-    let li = createNode('li'),
-        img = createNode('img'),
-        span = createNode('span');
-    img.src = author.picture.medium;
-    span.innerHTML = `${poki.name.first} ${poki.name.last}`;
-    append(li, img);
-    append(li, span);
-    append(ul, li);
-  })
-})
-.catch(function(error) {
-  console.log(JSON.stringify(error));
-});   
+        function createNode(element) {
+            return document.createElement(element); // Create the type of element you pass in the parameters
+          }
+        
+          function append(parent, el) {
+            return parent.appendChild(el); // Append the second parameter(element) to the first one
+          }
