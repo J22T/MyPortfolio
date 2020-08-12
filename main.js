@@ -1,16 +1,19 @@
 var cards = document.querySelectorAll('.card');
 
-console.log(cards)
-
 cards.forEach(card => {
-    card.addEventListener( 'click', function() {
-    card.classList.toggle("is-flipped");
-    });
+card.addEventListener( 'click', function() {
+card.classList.toggle("is-flipped");
+});
 })
 
-fetch('"https://pokeapi.co/api/v2/pokemon?offset=100&limit=100"')
+const getPoki = () => {
+
+fetch('https://pokeapi.co/api/v2/pokemon?offset=100&limit=100')
 .then(resp => resp.json())
 .then(poki => console.log(poki))
+}
+
+getPoki();
 
 
 
@@ -36,11 +39,11 @@ append(ul, li);
 }
 
 function createNode(element) {
-    return document.createdElement(element);
+return document.createdElement(element);
 }
 
 function append(parent, el) {
-    return parent.appendChild(el);
+return parent.appendChild(el);
 }
 
 const url = 'https://swapi.dev/api/starships/9/';
@@ -51,34 +54,34 @@ let isGravity = true;
 let spaceshipsandplanets;
 
 fetch(url)
-    .then(resp => resp.json())
-    .then(data => {
-        starships = data.results;
-        spaceshipsandplanets = data.results;
-        console.log(spaceshipsandplanets)
+.then(resp => resp.json())
+.then(data => {
+starships = data.results;
+spaceshipsandplanets = data.results;
+console.log(spaceshipsandplanets)
 
-        spaceship.map(spaceship => {
-      
-            createSpaceship(spaceship)
-        })
-    })
+spaceship.map(spaceship => {
 
-    spaceshipsandplanets.map(spaceshipsandplanets => {
-        console.log(spaceshipsandplanets.cell)
-        
-        })
-    })
+createSpaceship(spaceship)
+})
+})
 
-    spaceshipsToggleBtn.addEventListener('click', () => {
-        isgravity = !isGravity:
-        ul.innerHTML = '';
+spaceshipsandplanets.map(spaceshipsandplanets => {
+console.log(spaceshipsandplanets.cell)
 
-        spaceshipsandplanets.filter(spaceshipsandplanets => {
-            return isGravity ? spaceshipsandplanets.gravity == 'gravity' : spaceships.planets == 'gravity'
-    })
-    .map(spaceship => {
+})
+})
 
-        createSpaceship(spaceship);
+spaceshipsToggleBtn.addEventListener('click', () => {
+isgravity = !isGravity:
+ul.innerHTML = '';
 
-        })
-    })
+spaceshipsandplanets.filter(spaceshipsandplanets => {
+return isGravity ? spaceshipsandplanets.gravity == 'gravity' : spaceships.planets == 'gravity'
+})
+.map(spaceship => {
+
+createSpaceship(spaceship);
+
+})
+})
