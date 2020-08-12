@@ -55,11 +55,11 @@ transform: rotateY( 720deg );
 
 
 .main-nav {
-width: 100%;
-background: #252525;
-min-height: 30px;
-padding: 10px;
-position: fixed;
+width: 1000%;
+background: #000000;
+min-height: 10px;
+padding: 20px;
+position: sticky;
 text-align: center;
 font-size: 20px;
 }
@@ -127,7 +127,7 @@ margin-bottom: 10px;
 }
 
 .hero-image {
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img\just-cause-4-uhd-4k-wallpaper.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),;
 height: 50%;
 background-position: center;
 background-repeat: no-repeat;
@@ -144,10 +144,11 @@ align-items: center;
 }
 
 #welcome-section {
-height: 100vh;
+height: 50vh;
 overflow: auto;
-background-color: #000000;
+background-color: #161616;
 font-size: 30px;
+width: 100vmax;
 }
 
 #about {
@@ -155,27 +156,31 @@ height: 50vh;
 overflow: auto;
 background-color: #00c3ff;
 font-size: 30px;
+width: 100vmax;
 }
 
 #projects {
 height: 50vh;
 overflow: auto;
-background-color: #72727271;
+background-color: #8f000071;
 font-size: 30px;
+width: 100vmax;
 }
 
 #updates {
 height: 50vh;
 overflow: auto;
-background-color: #009231;
+background-color: #006120;
 font-size: 30px;
+width: 100vmax;
 }
 
 #contact {
 height: 50vh;
 overflow: auto;
-background-color: #0068bd;
+background-color: #003968;
 font-size: 30px;
+width: 100vmax;
 }
 
 body {
@@ -184,7 +189,7 @@ padding: 0;
 text-align: center;
 font-family: 'Roboto', sans-serif;
 color: rgb(255, 255, 255);
-background: #252525;
+background: #000000;
 }
 img {
 max-width: 10%;
@@ -213,7 +218,7 @@ width: 100%;
 
 #navbar {
 position: fixed;
-top: 0px;
+top: 10px;
 width: 100%;
 justify-content: flex-end;
 }​

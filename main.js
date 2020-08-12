@@ -18,9 +18,14 @@ const getPoki = () => {
                 console.log(idx)
                 return {
                     name: poki.name,
-                    id: 'vlue'
+                    id: idx
                 }
             }
             )
+
+            console.log(myPokisArray)
+
         })
     }
+
+    getPoki();
