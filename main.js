@@ -35,7 +35,7 @@ const getPoki = () => {
 // </div>
             // cardcontainer.appendChild(document.createElement("div"). appendChild(document.createTextNode(Ele.name)))
             var carddiv = document.createElement("div")
-            carddiv.className = "flipcard card"
+            carddiv.className = "flipcard c"
             var carimg = document.createElement("img")
             carimg.src = "placeholder.jpg"
             carddiv.appendChild (carimg)
