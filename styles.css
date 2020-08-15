@@ -1,5 +1,6 @@
-{
+.card.is-flipped {
 box-sizing border-box;
+background: rgb(199, 199, 199);
 }
 
 .flipcard.body {
@@ -7,7 +8,6 @@ background: rgb(199, 199, 199);
 }
 
 .flipcard.card {
-position: absolute;
 top: 50%;
 left: 50%;
 width: 300px;
