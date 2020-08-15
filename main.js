@@ -76,4 +76,12 @@ const getPoki = () => {
             <div class="scene">
                 <div class="card">
                     <div class="card__face card__face--front">${charObj.name}</div>
-                    <div class="card__face card__face--back"></div><p><img src='SwImg/characters/${person.id}.jpg' /></p></div></div>
+                    </div>
+                    </div>
+
+const parentdiv = document.createElement('div');
+parentDiv.className('scene')
+
+                    container.append(newCharHTML)
+
+        })
