@@ -14,7 +14,7 @@ const getPoki = () => {
 
             const poki = data.results;
 
-            console.log(poki)
+            console.log(poki)s
 
             const myPokisArray = poki.map((ipoki, idx) => {
                 console.log(idx)
