@@ -58,3 +58,22 @@ const getPoki = () => {
     }
 
     getPoki();
+
+    const charForm = document.querySelector('#charform');
+    charForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(charform);
+
+        let charObj = new Object();
+
+        for(let pair of FormData.entries()) {
+            console.log(pair)
+
+            charObj[pair[01]] = pair[1]
+
+            newCharHTML = 
+            <div class="scene">
+                <div class="card">
+                    <div class="card__face card__face--front">${charObj.name}</div>
+                    <div class="card__face card__face--back"></div><p><img src='SwImg/characters/${person.id}.jpg' /></p></div></div>
