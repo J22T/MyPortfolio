@@ -21,11 +21,11 @@ const getPoki = () => {
                     id: idx
                 }
             }
-            )
+            ))
 
             console.log(myPokisArray)
 
-        })
+        }))
     }
 
     getPoki();
