@@ -60,7 +60,7 @@ const getPoki = () => {
     getPoki();
 
     const charForm = document.querySelector('#charform');
-    charForm.addEventListener('submit', (event) => {
+    // charForm.addEventListener('submit', (event) => {
         event.preventDefault();
 
         const formData = new FormData(charform);
