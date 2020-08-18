@@ -82,4 +82,4 @@ parentDiv.className('scene')
 
                     container.append(newCharHTML)
 
-                })
+                }}
