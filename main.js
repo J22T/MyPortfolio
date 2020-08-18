@@ -74,7 +74,7 @@ const getPoki = () => {
 
             newCharHTML = 
                 <div class='card'>
-                    <div class="card__face card__face--front">${charObj.name}</div>
+                    <div class='card__face card__face--front'>${charObj.name}</div>
                     </div>
                     </div>
 
