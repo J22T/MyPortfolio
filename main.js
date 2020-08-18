@@ -76,7 +76,6 @@ const getPoki = () => {
                 <div class='card'>
                     <div class='card__face card__face--front'>${charObj.name}</div>
                     </div>
-                    </div>
 
 const parentdiv = document.createElement('div');
 parentDiv.className('scene')
