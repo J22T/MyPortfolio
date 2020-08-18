@@ -70,7 +70,7 @@ const getPoki = () => {
         for(let pair of FormData.entries()) {
             console.log(pair)
 
-            charObj[pair[01]] = pair[1]
+            charObj[pair[0]] = pair[1]
 
             newCharHTML = 
                 <div class='card'>
