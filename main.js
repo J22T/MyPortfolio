@@ -14,7 +14,7 @@ const getPoki = () => {
 
             const poki = data.results;
 
-            console.log(poki)s
+            console.log(pokiS)
 
             const myPokisArray = poki.map((ipoki, idx) => {
                 console.log(idx)
@@ -84,4 +84,4 @@ parentDiv.className('scene')
 
                     container.append(newCharHTML)
 
-        })
+                }})
