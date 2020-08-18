@@ -72,10 +72,10 @@ const getPoki = () => {
 
             charObj[pair[0]] = pair[1]
 
-            newCharHTML = 
-                <div class='card'>
-                    <div class='card__face card__face--front'>${charObj.name}</div>
-                    </div>
+            // newCharHTML = 
+            //     <div class='card'>
+            //         <div class='card__face card__face--front'>${charObj.name}</div>
+            //         </div>
 
 const parentdiv = document.createElement('div');
 parentDiv.className('scene')
