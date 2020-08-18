@@ -73,7 +73,6 @@ const getPoki = () => {
             charObj[pair[01]] = pair[1]
 
             newCharHTML = 
-            div class="scene">
                 <div class="card">
                     <div class="card__face card__face--front">${charObj.name}</div>
                     </div>
