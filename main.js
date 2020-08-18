@@ -59,27 +59,27 @@ const getPoki = () => {
 
     getPoki();
 
-    const charForm = document.querySelector('#charform');
-    // charForm.addEventListener('submit', (event) => {
-        event.preventDefault();
+//     const charForm = document.querySelector('#charform');
+//     // charForm.addEventListener('submit', (event) => {
+//         event.preventDefault();
 
-        const formData = new FormData(charform);
+//         const formData = new FormData(charform);
 
-        let charObj = new Object();
+//         let charObj = new Object();
 
-        for(let pair of FormData.entries()) {
-            console.log(pair)
+//         for(let pair of FormData.entries()) {
+//             console.log(pair)
 
-            charObj[pair[0]] = pair[1]
+//             charObj[pair[0]] = pair[1]
 
-            // newCharHTML = 
-            //     <div class='card'>
-            //         <div class='card__face card__face--front'>${charObj.name}</div>
-            //         </div>
+//             // newCharHTML = 
+//             //     <div class='card'>
+//             //         <div class='card__face card__face--front'>${charObj.name}</div>
+//             //         </div>
 
-const parentdiv = document.createElement('div');
-parentDiv.className('scene')
+// const parentdiv = document.createElement('div');
+// parentDiv.className('scene')
 
-                    container.append(newCharHTML)
+//                     container.append(newCharHTML)
 
-                }}
+//                 }}
